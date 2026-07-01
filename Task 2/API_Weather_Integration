@@ -1,0 +1,29 @@
+import requests
+
+API_KEY = "d847d30ba2f6f4591c9c4736d132194f"
+
+print("=" * 40)
+print("      Weather Information App")
+print("=" * 40)
+
+city = input("Enter City Name: ")
+
+url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+    data = response.json()
+    
+    print("\nWeather Details")
+    print("-" * 30)
+    print("City :", data["name"])
+    print("Country :", data["sys"]["country"])
+    print("Temperature :", data["main"]["temp"], "°C")
+    print("Feels Like :", data["main"]["feels_like"], "°C")
+    print("Humidity :", data["main"]["humidity"], "%")
+    print("Weather :", data["weather"][0]["description"].title())
+    print("Wind Speed :", data["wind"]["speed"], "m/s")
+else:
+    print("City not found or Invalid API Key")
+    
