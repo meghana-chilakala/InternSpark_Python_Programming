@@ -87,14 +87,39 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-(Add Screenshot Here)
+----------------------------------------
+          Flask Notes App
+----------------------------------------
 
+[ Enter your note               ] [Add]
+
+----------------------------------------
+No notes added yet
+----------------------------------------
 ### After Adding Notes
 
-(Add Screenshot Here)
+----------------------------------------
+          Flask Notes App
+----------------------------------------
 
----
+[ Complete InternSpark Task     ] [Add]
 
+----------------------------------------
+Complete InternSpark Task    [Delete]
+----------------------------------------
+###After Adding Multiple Notes
+
+----------------------------------------
+          Flask Notes App
+----------------------------------------
+
+[ Enter your note              ] [Add]
+
+----------------------------------------
+Learn Flask               [Delete]
+Complete Internship Task  [Delete]
+Upload to GitHub          [Delete]
+----------------------------------------
 ## 📦 Requirements
 
 ```
