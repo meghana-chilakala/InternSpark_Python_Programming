@@ -1,0 +1,40 @@
+Dataset loaded successfully.
+
+Original Dataset:
+   Student_ID  Name  Department  Gender  Marks  Attendance
+0         101  Asha        CSE   Female   85.0        92.0
+1         102  Ravi        ECE     Male   72.0        81.0
+...
+
+Missing Values:
+Student_ID    0
+Name          0
+Department    0
+Gender        0
+Marks         1
+Attendance    1
+
+Summary Statistics:
+Average Marks: 80.73
+Average Attendance: 86.45
+
+Students with Marks > 80:
+Asha
+Meena
+Sneha
+Priya
+Anjali
+
+Average Marks by Department:
+CSE    83.00
+ECE    80.50
+EEE    73.67
+
+Graphs generated successfully:
+- department_average_marks.png
+- department_distribution.png
+
+Cleaned dataset saved as:
+cleaned_student_data.csv
+
+Data Analysis Completed Successfully!
