@@ -1,0 +1,13 @@
+Student_ID,Name,Department,Gender,Marks,Attendance
+101,Asha,CSE,Female,85.0,92.0
+102,Ravi,ECE,Male,72.0,81.0
+103,Meena,CSE,Female,91.0,95.0
+104,Arjun,EEE,Male,68.0,76.0
+105,Sneha,ECE,Female,88.0,90.0
+106,Kiran,CSE,Male,75.0,84.0
+107,Divya,EEE,Female,79.0,87.0
+108,Rahul,ECE,Male,78.9090909090909,73.0
+109,Priya,CSE,Female,94.0,96.0
+110,Vijay,EEE,Male,64.0,85.54545454545455
+111,Anjali,ECE,Female,82.0,89.0
+112,Suresh,CSE,Male,70.0,78.0
